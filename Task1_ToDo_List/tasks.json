@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Study Python",
+        "completed": false
+    },
+    {
+        "name": "Complete Internship",
+        "completed": false
+    },
+    {
+        "name": "Practice GitHub",
+        "completed": true
+    }
+]
