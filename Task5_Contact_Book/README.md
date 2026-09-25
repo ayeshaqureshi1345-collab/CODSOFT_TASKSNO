@@ -4,13 +4,14 @@
 
 This is a simple Python Contact Book application that allows users to manage their contacts. Users can add, view, search, update, and delete contacts.
 
-The contacts are stored in a JSON file so that they can be saved and accessed again when the program is run.
+The contact information includes name, phone number, email, and address. The contacts are stored in a JSON file so that they can be saved and accessed again when the program is run.
 
 ## Features
 
 * Add a new contact
-* View all contacts
-* Search for a contact
+* Store name, phone number, email, and address
+* View all saved contacts
+* Search contacts by name or phone number
 * Update contact details
 * Delete a contact
 * Save contacts using a JSON file
@@ -49,6 +50,7 @@ Enter your choice: 1
 Enter name: Ayesha
 Enter phone number: 9876543210
 Enter email: ayesha@example.com
+Enter address: Mumbai
 
 Contact added successfully!
 ```
@@ -56,3 +58,10 @@ Contact added successfully!
 ## Data Storage
 
 Contacts are stored in the `contacts.json` file. The file is automatically created when a contact is added.
+
+## Search
+
+The search feature allows users to find a contact using either:
+
+* Contact name
+* Phone number
